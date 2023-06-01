@@ -22,11 +22,3 @@ app.get('/notes', (req, res) =>
 app.get('*', (req, res) =>
   res.sendFile(path.join(__dirname, '/public/404.html'))
 );
-
-// Function for old notes
-
-// Function to add new notes
-
-// Function to delete notes
-
-//Function to update existing notes
